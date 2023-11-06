@@ -1,0 +1,1 @@
+export const BASE_URL = "https://bp-json-server.onrender.com";

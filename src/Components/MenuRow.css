@@ -1,0 +1,21 @@
+*{
+    scroll-behavior: smooth;
+}
+
+
+.movie{
+    min-width: 20%;
+    height: 350px;
+    margin-right: 30px;
+    transition: transform 450ms;
+    object-fit: cover;
+}
+
+
+
+@media  (max-width:600px) {
+    .movie{
+        min-width: 43%;
+        height: 300px;
+    }
+}
